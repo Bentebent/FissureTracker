@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bxFn6Y92mCDLZqcyZ1NrQwZ54K71a2ufaAQnVYd+L7ZFByHYfKqq44zfzB6P7g2yR3sXBOZ9Q8H0CP/pkxrXZA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\FissureTracker\\FissureTracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bentebent\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Bentebent\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Bentebent\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
