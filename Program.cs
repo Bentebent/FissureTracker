@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 using System;
 using System.Collections.Generic;
@@ -62,7 +63,13 @@ namespace FissureTracker
                 });
             });
 
-            Console.WriteLine(JsonConvert.SerializeObject(deathsPerPlayer));
+            string serializedJSON = JsonConvert.SerializeObject(deathsPerPlayer);
+
+            JObject parsedJSON = JObject.Parse(serializedJSON);
+            foreach (var pair in parsedJSON)
+            {
+                Console.WriteLine("{0}: {1}", pair.Key, pair.Value);
+            }
         }
     }
 }
